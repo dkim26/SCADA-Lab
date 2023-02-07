@@ -10,10 +10,10 @@ const HomeTab = () => (
           <li>IP addresses ending in 100-199 are assigned by the router(DHCP)</li>
           <li>VLAN&apos;s and their IP addresses</li>
           <ul>
-            <li>VLAN 1 = 10.1.1.x</li>
-            <li>VLAN 2 = 10.1.88.x</li>
-            <li>VLAN 3 = 10.1.44.x</li>
-            <li>VLAN 4 = 10.1.66.x</li>
+            <li>VLAN 1(Lab Dev) = 10.1.1.x</li>
+            <li>VLAN 2(SDN Control) = 10.1.88.x</li>
+            <li>VLAN 3(SDN Production) = 10.1.44.x</li>
+            <li>VLAN 4(SDN Security) = 10.1.66.x</li>
           </ul>
           <li>Description of Pi</li>
           <ul>
